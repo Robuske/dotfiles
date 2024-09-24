@@ -112,6 +112,8 @@ source $ZSH/oh-my-zsh.sh
 
 ### Added by me
 
+DEFAULT_USER=`whoami`
+
 ## iTerm2
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
