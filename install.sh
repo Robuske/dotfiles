@@ -16,6 +16,7 @@ move_zsh() {
 }
 
 move_gitconfig() {
+    # TODO: Add way to create ~/.gitconfig.local
     ln -fs ${DIR}/gitconfig ~/.gitconfig
 }
 
