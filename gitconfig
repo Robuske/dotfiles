@@ -1,5 +1,7 @@
 [include]
 	path = ~/.gitconfig.local
+[color]
+	ui = auto
 [pull]
 	rebase = true
 [log]
