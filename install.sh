@@ -19,11 +19,17 @@ move_gitconfig() {
     ln -fs ${DIR}/gitconfig ~/.gitconfig
 }
 
+brew_bundle() {
+    cd $DIR || exit
+    brew bundle
+}
+
 install() {
     # install_brew
     # install_oh_my_zsh
     # move_zsh
-    move_gitconfig
+    # move_gitconfig
+    brew_bundle
 }
 
 install
