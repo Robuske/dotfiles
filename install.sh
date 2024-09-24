@@ -19,6 +19,10 @@ move_gitconfig() {
     ln -fs ${DIR}/gitconfig ~/.gitconfig
 }
 
+move_gemrc() {
+    ln -fs ${DIR}/gemrc ~/.gemrc
+}
+
 brew_bundle() {
     cd $DIR || exit
     brew bundle
@@ -29,7 +33,8 @@ install() {
     # install_oh_my_zsh
     # move_zsh
     # move_gitconfig
-    brew_bundle
+    move_gemrc
+    # brew_bundle
 }
 
 install
