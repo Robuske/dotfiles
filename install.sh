@@ -27,6 +27,13 @@ move_gemrc() {
 brew_bundle() {
     cd $DIR || exit
     brew bundle
+    cd ~/
+}
+
+install_asdf_ruby_plugin() {
+    ln -fs ${DIR}/tool-versions ~/.tool-versions
+    asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+    asdf install
 }
 
 install() {
@@ -34,8 +41,9 @@ install() {
     # install_oh_my_zsh
     # move_zsh
     # move_gitconfig
-    move_gemrc
+    # move_gemrc
     # brew_bundle
+    install_asdf_ruby_plugin
 }
 
 install
