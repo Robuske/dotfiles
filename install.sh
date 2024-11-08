@@ -42,8 +42,8 @@ install() {
     # move_zsh
     # move_gitconfig
     # move_gemrc
-    # brew_bundle
-    install_asdf_ruby_plugin
+    brew_bundle
+    # install_asdf_ruby_plugin
 }
 
 install

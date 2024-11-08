@@ -22,6 +22,45 @@
             }
           }
         }
+      },
+      "bazelisk": {
+        "version": "1.22.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d",
+              "sha256": "3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d",
+              "sha256": "3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d",
+              "sha256": "3cb08dd73eb1ef938f6921e5f25b3832d7aaf6c9befdcccba3b4f713a62a043d"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:d14bd1ef15d2fca1381839670a7c3562750d295712e1cb0f2d8927e9358c56f1",
+              "sha256": "d14bd1ef15d2fca1381839670a7c3562750d295712e1cb0f2d8927e9358c56f1"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:d14bd1ef15d2fca1381839670a7c3562750d295712e1cb0f2d8927e9358c56f1",
+              "sha256": "d14bd1ef15d2fca1381839670a7c3562750d295712e1cb0f2d8927e9358c56f1"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/bazelisk/blobs/sha256:aa334b48d146e264c5321f317b3e9c6fba01405ee5d80d0d4f75f576a1071d46",
+              "sha256": "aa334b48d146e264c5321f317b3e9c6fba01405ee5d80d0d4f75f576a1071d46"
+            }
+          }
+        }
       }
     }
   },
@@ -33,7 +72,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "16.0.0.0.1.1724870825",
         "Xcode": "16.0",
-        "macOS": "15.0"
+        "macOS": "15.0.1"
       }
     }
   }
