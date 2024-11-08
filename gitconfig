@@ -8,3 +8,5 @@
 	date = local
 [push]
 	autoSetupRemote = true
+[mergetool]
+	keepBackup = false
