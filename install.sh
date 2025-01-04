@@ -30,9 +30,10 @@ brew_bundle() {
     cd ~/
 }
 
-install_asdf_ruby_plugin() {
+install_asdf_plugins() {
     ln -fs ${DIR}/tool-versions ~/.tool-versions
     asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+    asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
     asdf install
 }
 
@@ -42,7 +43,7 @@ install() {
     # move_zsh
     # move_gitconfig
     # move_gemrc
-    brew_bundle
+    # brew_bundle
     # install_asdf_ruby_plugin
 }
 
