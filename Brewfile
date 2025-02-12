@@ -1,5 +1,5 @@
 brew "asdf"
 
-brew "bazelisk"
+# brew "bazelisk"
 
 cask "font-fira-code-nerd-font"
