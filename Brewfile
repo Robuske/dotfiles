@@ -1,4 +1,5 @@
 brew "asdf"
+brew "xcode-build-server"
 
 # brew "bazelisk"
 
