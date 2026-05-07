@@ -75,8 +75,12 @@ install_asdf_plugins() {
     log "Setting up ASDF plugins..."
 
     create_symlink "${DIR}/tool-versions" "$HOME/.tool-versions"
+    create_symlink "${DIR}/asdfrc" "$HOME/.asdfrc"
+
     asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
-    # asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+    asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+    asdf plugin add golang https://github.com/asdf-community/asdf-golang.git
+    asdf plugin add java https://github.com/halcyon/asdf-java.git
     asdf install
 
     log "Finished setting up ASDF plugins."
